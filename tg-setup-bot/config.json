@@ -1,0 +1,19 @@
+{
+  "symbols": [
+    { "name": "BTCUSDT", "source": "binance", "ticker": "BTCUSDT", "tv": "BINANCE:BTCUSDT" },
+    { "name": "NQ1!", "source": "yahoo", "ticker": "NQ=F", "tv": "CME_MINI:NQ1!" }
+  ],
+  "binance_base": "https://data-api.binance.vision",
+  "zone_timeframes": ["1d", "1h", "30m", "15m"],
+  "divergence_timeframes": ["5m", "15m", "1h", "4h"],
+  "divergence_types": ["regular", "hidden"],
+  "atr_length": 14,
+  "zone_buffer_atr": 0.5,
+  "no_zone_sl_atr": 1,
+  "no_zone_tp_atr": 2,
+  "min_rr": 2,
+  "pivot_left": 5,
+  "pivot_right": 2,
+  "max_swing_gap": 60,
+  "fresh_minutes": 30
+}
