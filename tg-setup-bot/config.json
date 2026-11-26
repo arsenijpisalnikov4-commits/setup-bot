@@ -11,7 +11,7 @@
   "zone_buffer_atr": 0.5,
   "no_zone_sl_atr": 1,
   "no_zone_tp_atr": 2,
-  "min_rr": 2,
+  "min_rr": 1,
   "pivot_left": 5,
   "pivot_right": 2,
   "max_swing_gap": 60,
