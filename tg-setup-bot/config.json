@@ -1,11 +1,13 @@
 {
   "symbols": [
     { "name": "BTCUSDT", "source": "binance", "ticker": "BTCUSDT", "tv": "BINANCE:BTCUSDT" },
-    { "name": "NQ1!", "source": "yahoo", "ticker": "NQ=F", "tv": "CME_MINI:NQ1!" }
+    { "name": "NQ1!", "source": "yahoo", "ticker": "NQ=F", "tv": "CME_MINI:NQ1!" },
+    { "name": "SOLUSDT", "source": "binance", "ticker": "SOLUSDT", "tv": "BINANCE:SOLUSDT" },
+    { "name": "XMRUSD", "source": "yahoo", "ticker": "XMR-USD", "tv": "KRAKEN:XMRUSD" }
   ],
   "binance_base": "https://data-api.binance.vision",
   "zone_timeframes": ["1d", "1h", "30m", "15m"],
-  "divergence_timeframes": ["5m", "15m", "1h", "4h"],
+  "divergence_timeframes": ["15m", "1h", "4h"],
   "divergence_types": ["regular", "hidden"],
   "atr_length": 14,
   "zone_buffer_atr": 0.5,
